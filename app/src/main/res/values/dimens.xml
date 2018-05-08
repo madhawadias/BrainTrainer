@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="exitdim">76dp</dimen>
+    <dimen name="aboutdim">32dp</dimen>
+    <dimen name="continuedim">32dp</dimen>
+    <dimen name="newgamedim">32dp</dimen>
+    <dimen name="novicedim">32dp</dimen>
+    <dimen name="easydim">32dp</dimen>
+    <dimen name="mediumdim">32dp</dimen>
+    <dimen name="gurudim">150dp</dimen>
+    <dimen name="mainbutdim">52dp</dimen>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.braintrainer.MarksActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="602dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/button2"
+            android:layout_toLeftOf="@+id/button2"
+            android:layout_toStartOf="@+id/button2"
+            android:text="Marks :"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Marks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Marks"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/button_round"
+            android:onClick="mainMenu"
+            android:text="@string/main_menubutton"
+            android:textColor="@android:color/background_light" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
